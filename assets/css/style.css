@@ -1,0 +1,213 @@
+/* ===========================
+   Rayilla Sai Prakash Website
+   =========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#eef3f8;
+    color:#333;
+    line-height:1.7;
+}
+
+/* Container */
+
+.container{
+    width:90%;
+    max-width:1250px;
+    margin:40px auto;
+}
+
+/* Navigation */
+
+.navbar{
+    background:#0b3d91;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    position:sticky;
+    top:0;
+    z-index:999;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:28px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    color:#9fd0ff;
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    background:white;
+    padding:60px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    margin-bottom:35px;
+}
+
+.hero-left{
+    flex:1;
+    text-align:center;
+}
+
+.hero-right{
+    flex:2;
+}
+
+.profile-photo{
+    width:270px;
+    height:270px;
+    border-radius:18px;
+    object-fit:cover;
+    border:6px solid white;
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.hero h1{
+    font-size:46px;
+    color:#0b3d91;
+}
+
+.hero h2{
+    margin-top:10px;
+    color:#666;
+}
+
+.tagline{
+    margin:20px 0;
+    font-weight:600;
+    color:#0b3d91;
+}
+
+/* Buttons */
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#0b3d91;
+    color:white;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#06295d;
+}
+
+/* Cards */
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    margin-bottom:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-bottom:25px;
+    color:#0b3d91;
+    font-size:32px;
+}
+
+/* Grid */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:20px;
+}
+
+.box{
+    background:#eef5ff;
+    padding:22px;
+    border-left:5px solid #0b3d91;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,.10);
+}
+
+/* Lists */
+
+ul{
+    padding-left:22px;
+}
+
+li{
+    margin-bottom:12px;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:18px;
+}
+
+.navbar ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:36px;
+}
+
+.profile-photo{
+    width:220px;
+    height:220px;
+}
+
+}
