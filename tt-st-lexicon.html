@@ -2,68 +2,232 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TT–ST Lexicon | Sai Prakash</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>TT–ST Lexicon | Telangana Voices</title>
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="style.css">
+<style>
+.lex-wrap{max-width:1400px;margin:35px auto;padding:0 20px}
+.lex-intro{background:#fff;padding:24px;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.08);margin-bottom:20px}
+.lex-search{width:100%;box-sizing:border-box;padding:13px 15px;font-size:16px;border:1px solid #bbb;border-radius:8px;margin:15px 0 20px}
+.table-scroll{overflow-x:auto;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.lex-table{width:100%;border-collapse:collapse;min-width:1000px}
+.lex-table th,.lex-table td{border:1px solid #d7dce2;padding:11px 12px;text-align:left;vertical-align:top}
+.lex-table th{background:#17365d;color:#fff;position:sticky;top:0;z-index:1}
+.lex-table tbody tr:nth-child(even){background:#f7f9fc}
+.lex-table tbody tr:hover{background:#eef4fb}
+.lex-table td:first-child{text-align:center;width:55px}
+[lang="te"]{font-size:1.08em}
+.count{font-size:.95rem;color:#555}
+</style>
 </head>
 <body>
-<header class="hero">
-
-    <div class="hero-left">
-
-        <img src="assets/images/profile.jpg"
-             alt="Rayilla Sai Prakash"
-             class="profile-photo">
-
-    </div>
-
-    <div class="hero-right">
-
-        <h1>Rayilla Sai Prakash</h1>
-
-        <h2>M.A. Linguistics | M.Sc. Geo-Informatics</h2>
-
-        <p class="tagline">
-
-            Language Variation • Sociolinguistics • Language Documentation •
-            Telugu Linguistics • Geo-Informatics
-
-        </p>
-
-        <p>
-
-            I am an early-career researcher from Telangana, India, with
-            interdisciplinary interests in Linguistics and Geo-Informatics.
-            My work focuses on language variation, dialectology, multilingualism,
-            language documentation, and sustainable development using spatial
-            technologies.
-
-        </p>
-
-        <a href="assets/documents/CV.pdf" class="btn">
-            Download CV
-        </a>
-
-    </div>
-
-</header>
-<main>
-<section class="card">
+<nav class="navbar">
+<div class="logo"><strong>Rayilla Sai Prakash</strong></div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="presentations.html">Presentations</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<main class="lex-wrap">
+<section class="lex-intro">
 <h1>Telangana Telugu–Standard Telugu Lexicon (TT–ST)</h1>
-<p>A developing lexical resource documenting Telangana Telugu forms alongside their Standard Telugu equivalents and English glosses.</p>
-<p><strong>Status:</strong> In development. Entries will be added from field data and documented speech.</p>
+<p>A growing lexical resource documenting Telangana Telugu forms alongside Standard Telugu equivalents, romanization, and English glosses.</p>
+<p class="count"><strong>173 entries</strong> currently included.</p>
+<input id="lexSearch" class="lex-search" type="search" placeholder="Search Telangana Telugu, Standard Telugu, romanization, or English..." aria-label="Search lexicon">
 </section>
-<section class="card">
-<h2>Planned Entry Format</h2>
-<div style="overflow-x:auto"><table><thead><tr><th>Telangana Telugu (TT)</th><th>Standard Telugu (ST)</th><th>English Gloss</th><th>Example / Note</th></tr></thead><tbody><tr><td>సుట్టం</td><td>చుట్టం</td><td>relative</td><td>Regional phonological variant documented in Telangana speech.</td></tr><tr><td>సక్కగ</td><td>చక్కగా</td><td>well; properly</td><td>Common adverbial form in Telangana Telugu.</td></tr><tr><td>సూడు</td><td>చూడు</td><td>look; see</td><td>Common Telangana speech form.</td></tr></tbody></table></div>
-<p><a href="telangana-voices.html">← Back to Telangana Voices</a></p>
-</section>
+<div class="table-scroll">
+<table class="lex-table" id="lexTable">
+<thead><tr><th>No.</th><th>Telangana Telugu (TT)</th><th>TT Romanization</th><th>Standard Telugu (ST)</th><th>ST Romanization</th><th>English Gloss</th></tr></thead>
+<tbody>
+<tr><td>1</td><td lang='te'>ఎగవడుడు</td><td>egavadudu</td><td lang='te'>కొట్లాడడం</td><td>kotladadam</td><td>To fight or quarrel</td></tr>
+<tr><td>2</td><td lang='te'>ఎగవొసుడు</td><td>egavosudu</td><td lang='te'>తుర్పర్పడడం</td><td>turparapadam</td><td>To be startled suddenly</td></tr>
+<tr><td>3</td><td lang='te'>ఎగిరిపడుడు</td><td>egiripadudu</td><td lang='te'>మిడిసిపడడం</td><td>midisipadadam</td><td>To stumble or trip</td></tr>
+<tr><td>4</td><td lang='te'>ఎగుడు</td><td>egudu</td><td lang='te'>పేలడం</td><td>peladam</td><td>To burst or explode</td></tr>
+<tr><td>5</td><td lang='te'>ఎగేసుడు</td><td>egesudu</td><td lang='te'>ఉసిగొలపడం</td><td>usigolpadadam</td><td>To sigh or exhale heavily</td></tr>
+<tr><td>6</td><td lang='te'>ఎత్తిపోవుడు</td><td>ettipovudu</td><td lang='te'>తప్పిపోవడం</td><td>tappipovadam</td><td>To escape or get lost</td></tr>
+<tr><td>7</td><td lang='te'>ఎత్తుకపోవుడు</td><td>ettukapovudu</td><td lang='te'>దొంగలించి తేవడం</td><td>dongalinchi tevadam</td><td>To steal and bring</td></tr>
+<tr><td>8</td><td lang='te'>ఎత్తేసుడు</td><td>ettesudu</td><td lang='te'>కుడపడడం</td><td>kudapadadam</td><td>To be dragged or pulled</td></tr>
+<tr><td>9</td><td lang='te'>ఎడ్డిచుడు</td><td>eddichudu</td><td lang='te'>వెక్కిరించడం</td><td>vekkirinchadam</td><td>To mock or ridicule</td></tr>
+<tr><td>10</td><td lang='te'>బీరిపోవడం</td><td>beeripovadam</td><td lang='te'>ఆశ్చర్యపోవడం</td><td>aascharyapovadam</td><td>Surprised</td></tr>
+<tr><td>11</td><td lang='te'>సోచ్చి</td><td>sochchi</td><td lang='te'>ప్రవేశించడం</td><td>pravesinchadam</td><td>Entered</td></tr>
+<tr><td>12</td><td lang='te'>సొల్గుడు</td><td>solgudu</td><td lang='te'>తులడం</td><td>tuladam</td><td>To weigh</td></tr>
+<tr><td>13</td><td lang='te'>షెడ్డ</td><td>shedda</td><td lang='te'>గమనించడం</td><td>gamaninchadam</td><td>To concentrate</td></tr>
+<tr><td>14</td><td lang='te'>ర్కట్</td><td>rakata</td><td lang='te'>వస్తుంది</td><td>vastundi</td><td>To come</td></tr>
+<tr><td>15</td><td lang='te'>ఏంచు</td><td>ēncu</td><td lang='te'>లెక్కించు</td><td>lekkin̄cu</td><td>Count</td></tr>
+<tr><td>16</td><td lang='te'>గుపాయించు</td><td>gupāyin̄cu</td><td lang='te'>జొరబడు</td><td>jorabadu</td><td>To intrude</td></tr>
+<tr><td>17</td><td lang='te'>కూకొ</td><td>kūko</td><td lang='te'>కూర్చో</td><td>kūrcō</td><td>Sit down</td></tr>
+<tr><td>18</td><td lang='te'>గెదుముట</td><td>gedumuṭa</td><td lang='te'>పరిగెత్తించుట</td><td>pariget̄ṭin̄cuṭa</td><td>To make run</td></tr>
+<tr><td>19</td><td lang='te'>ఎగులువరంగా</td><td>eguluvaranga</td><td lang='te'>తెల్లవారగా</td><td>tellavaraga</td><td>Early in the morning</td></tr>
+<tr><td>20</td><td lang='te'>ఎడ్డికాలం</td><td>eddikalam</td><td lang='te'>తెలివిలేని కాలం</td><td>telivileni kalam</td><td>Time of ignorance</td></tr>
+<tr><td>21</td><td lang='te'>మబ్బుల</td><td>mabbula</td><td lang='te'>ప్రభాత వేళలు</td><td>prabhata velalu</td><td>Early morning</td></tr>
+<tr><td>22</td><td lang='te'>పొద్దుగల</td><td>poddugala</td><td lang='te'>పొద్దున</td><td>poddunu</td><td>Morning</td></tr>
+<tr><td>23</td><td lang='te'>తెల్లందాక</td><td>tellandaka</td><td lang='te'>రాత్రి అంత</td><td>ratri anta</td><td>Overnight</td></tr>
+<tr><td>24</td><td lang='te'>అమాస</td><td>amasa</td><td lang='te'>అమావాస్య</td><td>amavasya</td><td>New moon day</td></tr>
+<tr><td>25</td><td lang='te'>అయితరం</td><td>ayitaram</td><td lang='te'>ఆదివారం</td><td>aadivaram</td><td>Sunday</td></tr>
+<tr><td>26</td><td lang='te'>యేసంగి</td><td>yesangi</td><td lang='te'>రైతు పంటలు</td><td>raithu pantalu</td><td>Summer crop</td></tr>
+<tr><td>27</td><td lang='te'>లండు</td><td>landu</td><td lang='te'>ఆలస్యంగా</td><td>alasyanga</td><td>Lazy</td></tr>
+<tr><td>28</td><td lang='te'>బాపు</td><td>bapu</td><td lang='te'>తండ్రి</td><td>tandri</td><td>Father</td></tr>
+<tr><td>29</td><td lang='te'>అవ్వ</td><td>avva</td><td lang='te'>అమ్మ</td><td>amma</td><td>Mother</td></tr>
+<tr><td>30</td><td lang='te'>పెండ్లి</td><td>pendli</td><td lang='te'>పెళ్లి</td><td>pelli</td><td>Marriage</td></tr>
+<tr><td>31</td><td lang='te'>మరుపెండ్లి</td><td>marupendli</td><td lang='te'>రిసెప్షన్</td><td>Reception</td><td>Reception</td></tr>
+<tr><td>32</td><td lang='te'>అమాలి</td><td>amali</td><td lang='te'>కూలీ</td><td>kooli</td><td>Labour</td></tr>
+<tr><td>33</td><td lang='te'>మారుపేరు</td><td>maruperu</td><td lang='te'>ఇంటి పేరు</td><td>inti peru</td><td>Surname</td></tr>
+<tr><td>34</td><td lang='te'>మారాజు</td><td>maraju</td><td lang='te'>రాజు</td><td>raju</td><td>King</td></tr>
+<tr><td>35</td><td lang='te'>చీపిరి</td><td>cheepiri</td><td lang='te'>బ్రూము</td><td>broomu</td><td>Broom</td></tr>
+<tr><td>36</td><td lang='te'>బోనం</td><td>bonam</td><td lang='te'>బోనం</td><td>bonam</td><td>Holy offering</td></tr>
+<tr><td>37</td><td lang='te'>మద్దెల</td><td>maddela</td><td lang='te'>మృదంగం</td><td>mridangam</td><td>Drum</td></tr>
+<tr><td>38</td><td lang='te'>మిషిని</td><td>mishini</td><td lang='te'>యంత్రం</td><td>yantram</td><td>Machine</td></tr>
+<tr><td>39</td><td lang='te'>గుల్లా</td><td>gullaa</td><td lang='te'>బాస్కెట్</td><td>basket</td><td>Basket</td></tr>
+<tr><td>40</td><td lang='te'>గోలీ</td><td>golee</td><td lang='te'>మాట</td><td>matra</td><td>Word / Speech</td></tr>
+<tr><td>41</td><td lang='te'>బోల్ప్యాలలు</td><td>bolpyalalu</td><td lang='te'>మర్మరాలు</td><td>marmaralu</td><td>Puffed rice</td></tr>
+<tr><td>42</td><td lang='te'>తంతె</td><td>tante</td><td lang='te'>మెట్టు</td><td>mettu</td><td>Step</td></tr>
+<tr><td>43</td><td lang='te'>కిసా</td><td>kisā</td><td lang='te'>జేబు</td><td>jēbu</td><td>Pocket</td></tr>
+<tr><td>44</td><td lang='te'>బటువు</td><td>baṭuvu</td><td lang='te'>ఉంగరం</td><td>uṅgaraṁ</td><td>Ring</td></tr>
+<tr><td>45</td><td lang='te'>అర్ర</td><td>arra</td><td lang='te'>గది</td><td>gadi</td><td>Room</td></tr>
+<tr><td>46</td><td lang='te'>చెత్రి</td><td>cetri</td><td lang='te'>గొడుగు</td><td>goḍugu</td><td>Umbrella</td></tr>
+<tr><td>47</td><td lang='te'>మచ్చర్ దాన్</td><td>maccardān</td><td lang='te'>దోమతెర</td><td>dōmatēra</td><td>Mosquito net</td></tr>
+<tr><td>48</td><td lang='te'>పచ్చి</td><td>pacchi</td><td lang='te'>పక్షి</td><td>pakshi</td><td>Bird</td></tr>
+<tr><td>49</td><td lang='te'>మక్కలు</td><td>makkalu</td><td lang='te'>మొక్కజొన్నలు</td><td>mokka jonnalu</td><td>Maize plants</td></tr>
+<tr><td>50</td><td lang='te'>మిరం</td><td>miram</td><td lang='te'>కారం పొడి</td><td>karam podi</td><td>Chilli powder</td></tr>
+<tr><td>51</td><td lang='te'>షక్కర్</td><td>shakkara</td><td lang='te'>చీనీ</td><td>cheeni</td><td>Sugar</td></tr>
+<tr><td>52</td><td lang='te'>సల్లా</td><td>salla</td><td lang='te'>మజ్జిగ</td><td>majjiga</td><td>Buttermilk</td></tr>
+<tr><td>53</td><td lang='te'>పీనుగు</td><td>peenugu</td><td lang='te'>చావు శరీరం</td><td>chaavu shareeram</td><td>Dead body</td></tr>
+<tr><td>54</td><td lang='te'>బుడ్లు</td><td>buḍḍalu</td><td lang='te'>పల్లీలు</td><td>pallīlu</td><td>Villages</td></tr>
+<tr><td>55</td><td lang='te'>జాగా</td><td>jāgā</td><td lang='te'>స్థలం</td><td>sthalaṁ</td><td>Place</td></tr>
+<tr><td>56</td><td lang='te'>కల్యామాకు</td><td>kalyāmāku</td><td lang='te'>కరివేపాకు</td><td>karivēpāku</td><td>Curry leaf</td></tr>
+<tr><td>57</td><td lang='te'>బత్తీసలు</td><td>battīsalu</td><td lang='te'>అప్పడాలు</td><td>appaḍālu</td><td>Papads</td></tr>
+<tr><td>58</td><td lang='te'>మోసంబి</td><td>mōsambi</td><td lang='te'>బత్తాయి</td><td>battāyi</td><td>Sweet lime</td></tr>
+<tr><td>59</td><td lang='te'>అంగూర్</td><td>aṅgūr</td><td lang='te'>ద్రాక్ష</td><td>drākṣa</td><td>Grapes</td></tr>
+<tr><td>60</td><td lang='te'>కష్ కష్</td><td>kaṣkaṣ</td><td lang='te'>గసాలు</td><td>gasālu</td><td>Poppy seeds</td></tr>
+<tr><td>61</td><td lang='te'>మడుగుబూలు</td><td>maḍugubūlu</td><td lang='te'>మురుకులు</td><td>murukulu</td><td>Murukku</td></tr>
+<tr><td>62</td><td lang='te'>తపాలు</td><td>tapālu</td><td lang='te'>గిన్నె</td><td>ginne</td><td>Bowl</td></tr>
+<tr><td>63</td><td lang='te'>తైదలు</td><td>taidalu</td><td lang='te'>రాగులు</td><td>rāgulu</td><td>Millets</td></tr>
+<tr><td>64</td><td lang='te'>దప్పడం</td><td>dappaḍaṁ</td><td lang='te'>చారు</td><td>cāru</td><td>Rasam</td></tr>
+<tr><td>65</td><td lang='te'>తొక్కు</td><td>tokku</td><td lang='te'>పచ్చడి</td><td>paccadi</td><td>Pickle</td></tr>
+<tr><td>66</td><td lang='te'>ఉప్పిండి</td><td>uppiṇḍi</td><td lang='te'>ఉప్మా</td><td>upmā</td><td>Upma</td></tr>
+<tr><td>67</td><td lang='te'>ఏట కూర</td><td>ēṭa kūra</td><td lang='te'>మేక మాంసం</td><td>mēka māṁsaṁ</td><td>Goat meat curry</td></tr>
+<tr><td>68</td><td lang='te'>షాపలు</td><td>ṣāpalu</td><td lang='te'>చేపలు</td><td>cēpalu</td><td>Fish</td></tr>
+<tr><td>69</td><td lang='te'>ఎటు</td><td>etu</td><td lang='te'>ఎక్కడికి</td><td>ekkadiki</td><td>To where</td></tr>
+<tr><td>70</td><td lang='te'>ఎదురు</td><td>eduru</td><td lang='te'>తిరుగు</td><td>tirugu</td><td>Opposition</td></tr>
+<tr><td>71</td><td lang='te'>ఎదురుగా</td><td>eduruga</td><td lang='te'>ఎదురుగా</td><td>eduruga</td><td>In front of</td></tr>
+<tr><td>72</td><td lang='te'>ఈవలకి</td><td>eevalaki</td><td lang='te'>లోపల</td><td>lopala</td><td>Inside</td></tr>
+<tr><td>73</td><td lang='te'>ఆవలకి</td><td>aavalaki</td><td lang='te'>బయట</td><td>bayata</td><td>Outside</td></tr>
+<tr><td>74</td><td lang='te'>అగ్గో</td><td>aggo</td><td lang='te'>అక్కడ</td><td>akkada</td><td>There</td></tr>
+<tr><td>75</td><td lang='te'>పెద్దర్వాజ</td><td>peddarvaaja</td><td lang='te'>ముఖ్య ద్వారం</td><td>mukhya dwaram</td><td>Main entrance</td></tr>
+<tr><td>76</td><td lang='te'>ఒక్కడ్ల</td><td>okkadla</td><td lang='te'>ఒకటిలో</td><td>okatilo</td><td>In one</td></tr>
+<tr><td>77</td><td lang='te'>ఎత్తు</td><td>ettu</td><td lang='te'>సమానం</td><td>samanam</td><td>Equal or same</td></tr>
+<tr><td>78</td><td lang='te'>ఎత్తుకెత్తు</td><td>ettukettu</td><td lang='te'>సరికి సరి</td><td>sariki sari</td><td>Perfectly matched</td></tr>
+<tr><td>79</td><td lang='te'>ఎట్టి</td><td>etti</td><td lang='te'>వెట్టి</td><td>vetti</td><td>Naked or bare</td></tr>
+<tr><td>80</td><td lang='te'>ఎట్లా</td><td>etla</td><td lang='te'>ఎలా</td><td>ela</td><td>How</td></tr>
+<tr><td>81</td><td lang='te'>ఇంతంత</td><td>intanta</td><td lang='te'>చిన్నది</td><td>chinnadi</td><td>Small</td></tr>
+<tr><td>82</td><td lang='te'>కమ్మగా</td><td>kammaga</td><td lang='te'>రుచిగా</td><td>ruchiga</td><td>Tasty</td></tr>
+<tr><td>83</td><td lang='te'>గమ్మత్తి</td><td>gammati</td><td lang='te'>నవ్వుట</td><td>navvuta</td><td>Funny</td></tr>
+<tr><td>84</td><td lang='te'>యాదికి</td><td>yaadiki</td><td lang='te'>గుర్తు చేసుకోవడానికి</td><td>gurthu chesukovadaniki</td><td>To remember</td></tr>
+<tr><td>85</td><td lang='te'>యాది</td><td>yaadi</td><td lang='te'>గుర్తు చేసుకోవడం</td><td>gurthu chesukovadam</td><td>Remembering</td></tr>
+<tr><td>86</td><td lang='te'>అచ్చిన</td><td>accina</td><td lang='te'>వచ్చాను</td><td>vachchanu</td><td>I came</td></tr>
+<tr><td>87</td><td lang='te'>రాంద్రి</td><td>raandri</td><td lang='te'>రండి</td><td>randi</td><td>Come (plural)</td></tr>
+<tr><td>88</td><td lang='te'>బండి</td><td>bandi</td><td lang='te'>బైక్</td><td>baik</td><td>Motorcycle</td></tr>
+<tr><td>89</td><td lang='te'>ఉల్లాల్ల</td><td>ullalla</td><td lang='te'>గ్రామాలు</td><td>gramalu</td><td>Villages</td></tr>
+<tr><td>90</td><td lang='te'>పైసల్</td><td>paisal</td><td lang='te'>డబ్బు</td><td>dabbu</td><td>Money</td></tr>
+<tr><td>91</td><td lang='te'>పలారం</td><td>palaaram</td><td lang='te'>ప్రసాదం</td><td>prasadam</td><td>Sacred offering</td></tr>
+<tr><td>92</td><td lang='te'>సోంచాయించు</td><td>sōn̄cāyin̄cu</td><td lang='te'>ఆలోచించు</td><td>ālōcin̄cu</td><td>Think</td></tr>
+<tr><td>93</td><td lang='te'>నియ్యత్</td><td>niyyat</td><td lang='te'>నిజాయితీ</td><td>nijāyitī</td><td>Integrity</td></tr>
+<tr><td>94</td><td lang='te'>తాపతాపకు</td><td>tāpatāpaku</td><td lang='te'>మాటిమాటికి</td><td>māṭimāṭiki</td><td>Every now and then</td></tr>
+<tr><td>95</td><td lang='te'>మడిగ</td><td>maḍiga</td><td lang='te'>దుకాణం</td><td>dukāṇaṁ</td><td>Shop</td></tr>
+<tr><td>96</td><td lang='te'>పొట్లం</td><td>poṭlaṁ</td><td lang='te'>ప్యాకింగ్</td><td>pyākiṅg</td><td>Package</td></tr>
+<tr><td>97</td><td lang='te'>కైంచిపలంగ్</td><td>kain̄cipalaṅg</td><td lang='te'>మడత మంచం</td><td>maḍata man̄caṁ</td><td>Folding cot</td></tr>
+<tr><td>98</td><td lang='te'>బాండ్లి</td><td>bāṇḍli</td><td lang='te'>మూకుడు</td><td>mūkudu</td><td>Cooking pot</td></tr>
+<tr><td>99</td><td lang='te'>సలాకి</td><td>salāki</td><td lang='te'>అట్లకాడ</td><td>aṭlakāḍa</td><td>Ladle</td></tr>
+<tr><td>100</td><td lang='te'>ఈలపీట</td><td>īlapīṭa</td><td lang='te'>కత్తిపీట</td><td>kattipīṭa</td><td>Knife rack</td></tr>
+<tr><td>101</td><td lang='te'>గనుపట్ల</td><td>ganupaṭla</td><td lang='te'>గడప దగ్గర</td><td>gaḍapa daggara</td><td>Near the doorstep</td></tr>
+<tr><td>102</td><td lang='te'>చిమ్ని</td><td>cimni</td><td lang='te'>బుగ్గదీపం</td><td>buggadīpaṁ</td><td>Chimney lamp</td></tr>
+<tr><td>103</td><td lang='te'>తపుకు</td><td>tapuku</td><td lang='te'>ప్లేటు</td><td>plēṭu</td><td>Plate</td></tr>
+<tr><td>104</td><td lang='te'>పలంగి</td><td>palaṅgi</td><td lang='te'>మంచము</td><td>man̄camu</td><td>Bed</td></tr>
+<tr><td>105</td><td lang='te'>బలంగిర</td><td>balaṅgri</td><td lang='te'>డ్రాయింగ్ రూమ్</td><td>ḍrāyiṅg rūm</td><td>Drawing room</td></tr>
+<tr><td>106</td><td lang='te'>తూటు</td><td>tūṭu</td><td lang='te'>రంధ్రం</td><td>randhraṁ</td><td>Hole</td></tr>
+<tr><td>107</td><td lang='te'>మలుపు</td><td>malupu</td><td lang='te'>మూల</td><td>mūla</td><td>Corner</td></tr>
+<tr><td>108</td><td lang='te'>సిలుం</td><td>siluṁ</td><td lang='te'>తుప్పు</td><td>tuppu</td><td>Rust</td></tr>
+<tr><td>109</td><td lang='te'>సలవ</td><td>salv</td><td lang='te'>చల్లదనం</td><td>calladanaṁ</td><td>Coolness</td></tr>
+<tr><td>110</td><td lang='te'>తండా</td><td>taṇḍā</td><td lang='te'>చల్లని</td><td>callani</td><td>Cool</td></tr>
+<tr><td>111</td><td lang='te'>గరిమ</td><td>garmi</td><td lang='te'>వేడి</td><td>vēḍi</td><td>Heat</td></tr>
+<tr><td>112</td><td lang='te'>వూకె</td><td>ūke</td><td lang='te'>ఉట్టిగా</td><td>uṭṭigā</td><td>Plainly</td></tr>
+<tr><td>113</td><td lang='te'>సలప</td><td>salpa</td><td lang='te'>నున్నని రాయి</td><td>nunnani rāyi</td><td>Smooth stone</td></tr>
+<tr><td>114</td><td lang='te'>గుండ్లు</td><td>guṇḍlu</td><td lang='te'>రాళ్లు</td><td>rāḷlu</td><td>Stones</td></tr>
+<tr><td>115</td><td lang='te'>కంకి</td><td>kanki</td><td lang='te'>పొత్తు</td><td>poththu</td><td>Corn</td></tr>
+<tr><td>116</td><td lang='te'>కంచుక</td><td>kanchuka</td><td lang='te'>తామర</td><td>thaamara</td><td>Ring guard</td></tr>
+<tr><td>117</td><td lang='te'>కంచుడు</td><td>kanchudu</td><td lang='te'>మూకుడు</td><td>mūkudu</td><td>Frying</td></tr>
+<tr><td>118</td><td lang='te'>కండ్లు</td><td>kanddlu</td><td lang='te'>కళ్ళు</td><td>kallu</td><td>Eyes</td></tr>
+<tr><td>119</td><td lang='te'>కండ్లకిందికెళ్లి చూడడం</td><td>kanddalakindikelli chudadam</td><td lang='te'>రహస్యంగా పరిశీలించడం</td><td>rahasyanga parishilinchadam</td><td>To observe secretly</td></tr>
+<tr><td>120</td><td lang='te'>కండ్లకి చీకట్లు వచ్చుడు</td><td>kanddlaki cheekatlu vachhudu</td><td lang='te'>కళ్ళు బైర్లు కమ్మడం</td><td>kallu bairlu kammadam</td><td>Eyes becoming blurry</td></tr>
+<tr><td>121</td><td lang='te'>కండ్ల గానడు</td><td>kanddla gaanadu</td><td lang='te'>ఖాతరు చేయడు</td><td>khataru cheyadu</td><td>Did not damage</td></tr>
+<tr><td>122</td><td lang='te'>శేష్మాలు</td><td>seshmalu</td><td lang='te'>కళ్ళ జోడు</td><td>kalla jodu</td><td>Spectacles</td></tr>
+<tr><td>123</td><td lang='te'>కందగడ్డలు</td><td>kandagaddalu</td><td lang='te'>చిలకడ దుంపలు</td><td>chilakada dumpalu</td><td>Sweet potato</td></tr>
+<tr><td>124</td><td lang='te'>కమిలిపోవడం</td><td>kamilipovadam</td><td lang='te'>దెబ్బలకు నల్లబడిపోవడం</td><td>debbalaki nallabadipovadam</td><td>Bruising from injury</td></tr>
+<tr><td>125</td><td lang='te'>కంపిని</td><td>kampini</td><td lang='te'>కంపెనీ</td><td>company</td><td>Company</td></tr>
+<tr><td>126</td><td lang='te'>కంసల్య</td><td>kamsalya</td><td lang='te'>కౌసల్య</td><td>kousalya</td><td>Kausalya (name)</td></tr>
+<tr><td>127</td><td lang='te'>కక్కుడు</td><td>kakkudu</td><td lang='te'>వాంతులు</td><td>vanthulu</td><td>Vomiting</td></tr>
+<tr><td>128</td><td lang='te'>కశిరే</td><td>kashire</td><td lang='te'>చెత్త</td><td>chethha</td><td>Trash / waste</td></tr>
+<tr><td>129</td><td lang='te'>కచిరి</td><td>kachiri</td><td lang='te'>రచ్చబండ</td><td>rachhabanda</td><td>Village gathering place</td></tr>
+<tr><td>130</td><td lang='te'>కట్క</td><td>katka</td><td lang='te'>స్విచ్</td><td>switch</td><td>Switch</td></tr>
+<tr><td>131</td><td lang='te'>కట్టం</td><td>kattam</td><td lang='te'>కష్టం</td><td>kastam</td><td>Difficulty</td></tr>
+<tr><td>132</td><td lang='te'>చిమ్మంగీకటి</td><td>chimmangeekati</td><td lang='te'>కారు చీకటి</td><td>kaaru cheekati</td><td>Dense darkness</td></tr>
+<tr><td>133</td><td lang='te'>నడియాము రాత్రి</td><td>nadiyaamu rathri</td><td lang='te'>అర్ధరాత్రి</td><td>arda rathri</td><td>Midnight</td></tr>
+<tr><td>134</td><td lang='te'>కడకు</td><td>kadaku</td><td lang='te'>చివరికి</td><td>chivariki</td><td>Finally</td></tr>
+<tr><td>135</td><td lang='te'>కడుపు</td><td>kadupa</td><td lang='te'>గడప</td><td>gadapa</td><td>Main gate</td></tr>
+<tr><td>136</td><td lang='te'>కతా</td><td>kataa</td><td lang='te'>కథ</td><td>katha</td><td>Story</td></tr>
+<tr><td>137</td><td lang='te'>కదెం</td><td>kadem</td><td lang='te'>కడియం</td><td>kadiyam</td><td>Bracelet</td></tr>
+<tr><td>138</td><td lang='te'>కన్నెర్రతనం</td><td>kannerrathanam</td><td lang='te'>అసూయ</td><td>asuuya</td><td>Jealousy</td></tr>
+<tr><td>139</td><td lang='te'>కమిరిచ్చుడు</td><td>kamirichhudu</td><td lang='te'>కలుచడం</td><td>kaluchadam</td><td>Stirring (e.g., animal feed)</td></tr>
+<tr><td>140</td><td lang='te'>పొద్దుగూకంగా</td><td>poddugukanga</td><td lang='te'>సాయంత్రం</td><td>sayantram</td><td>Evening</td></tr>
+<tr><td>141</td><td lang='te'>పట్టవగలు</td><td>pattavagalu</td><td lang='te'>మిట్ట మధ్యాహ్నం</td><td>mitta madyanam</td><td>Early afternoon</td></tr>
+<tr><td>142</td><td lang='te'>ఎగిలివరంగా</td><td>egilivaranga</td><td lang='te'>తెల్లవారు జామున</td><td>thellavaru jamuna</td><td>Early dawn</td></tr>
+<tr><td>143</td><td lang='te'>కర్కు</td><td>karku</td><td lang='te'>పళ్ళపొడి</td><td>pallapodi</td><td>Tooth powder</td></tr>
+<tr><td>144</td><td lang='te'>కయ్యం</td><td>kayyam</td><td lang='te'>గొడవ</td><td>godava</td><td>Quarrel</td></tr>
+<tr><td>145</td><td lang='te'>పుటకులాడి</td><td>putakulladi</td><td lang='te'>చాడీలు చెప్పేది</td><td>chaadilu cheppedi</td><td>Gossiping</td></tr>
+<tr><td>146</td><td lang='te'>కమ్మి</td><td>kammi</td><td lang='te'>తక్కువ / కొరత</td><td>thakkuva / koratha</td><td>Deficiency / less</td></tr>
+<tr><td>147</td><td lang='te'>కర్రెగా</td><td>karrega</td><td lang='te'>నల్లగా</td><td>nallaga</td><td>Dark-skinned</td></tr>
+<tr><td>148</td><td lang='te'>కల</td><td>kala</td><td lang='te'>అందం</td><td>andam</td><td>Beauty</td></tr>
+<tr><td>149</td><td lang='te'>కలేవడుడు</td><td>kalevadudu</td><td lang='te'>కొట్లాట</td><td>kotlaata</td><td>Quarreling</td></tr>
+<tr><td>150</td><td lang='te'>కలేగూర</td><td>kaleguura</td><td lang='te'>తోటకూర</td><td>thota kura</td><td>Leafy vegetable</td></tr>
+<tr><td>151</td><td lang='te'>బిటుకులు</td><td>bitukulu</td><td lang='te'>షోకులు</td><td>shokulu</td><td>Show off</td></tr>
+<tr><td>152</td><td lang='te'>కాకిరిబికిరి మాటలు</td><td>kaakiribikiri matalu</td><td lang='te'>అర్థం పర్థం లేని మాటలు</td><td>ardam pardamleni maatalu</td><td>Nonsensical speech</td></tr>
+<tr><td>153</td><td lang='te'>కాదువడుడు</td><td>kaaduvadudu</td><td lang='te'>అయోమయం</td><td>ayomayam</td><td>Confusion</td></tr>
+<tr><td>154</td><td lang='te'>సందుగు</td><td>sandugu</td><td lang='te'>ఇనుప పెట్టె</td><td>inupa pette</td><td>Trunk box</td></tr>
+<tr><td>155</td><td lang='te'>పికాషి</td><td>pikashi</td><td lang='te'>పారా</td><td>paara</td><td>Soil leveler</td></tr>
+<tr><td>156</td><td lang='te'>గడ్డి పారా</td><td>gadda para</td><td lang='te'>గుణపం</td><td>gunapam</td><td>Herbal paste</td></tr>
+<tr><td>157</td><td lang='te'>లాగు</td><td>laagu</td><td lang='te'>నెక్కర</td><td>nekkar</td><td>Undershirt / vest</td></tr>
+<tr><td>158</td><td lang='te'>అంగి</td><td>angi</td><td lang='te'>చొక్కా</td><td>chokka</td><td>Shirt</td></tr>
+<tr><td>159</td><td lang='te'>జాంగా</td><td>jaannga</td><td lang='te'>లోదుస్తులు</td><td>inner wear</td><td>Underwear</td></tr>
+<tr><td>160</td><td lang='te'>పైతాబులు</td><td>paithaabulu</td><td lang='te'>సాక్స్</td><td>socks</td><td>Socks</td></tr>
+<tr><td>161</td><td lang='te'>బూట్లు</td><td>bootlu</td><td lang='te'>షూస్</td><td>shoes</td><td>Shoes</td></tr>
+<tr><td>162</td><td lang='te'>పుట్టెల్తాడు</td><td>puttelthaadu</td><td lang='te'>మంగళసూత్రం</td><td>mangala suthram</td><td>Sacred marriage thread</td></tr>
+<tr><td>163</td><td lang='te'>గుండ్లు</td><td>gundlu</td><td lang='te'>ముత్యాలు</td><td>muthyaalu</td><td>Beads</td></tr>
+<tr><td>164</td><td lang='te'>చెవుకమ్మ (పురుషులు)</td><td>chevukamma (male)</td><td lang='te'>చెవుపోగు</td><td>chevupogu</td><td>Male earring</td></tr>
+<tr><td>165</td><td lang='te'>కత్తెరవానిలు</td><td>kathheravanilu</td><td lang='te'>చెవుకమ్మలు</td><td>chevukammalu</td><td>Earrings</td></tr>
+<tr><td>166</td><td lang='te'>చెంపశేర్లు</td><td>chempasherlu</td><td lang='te'>మాటీలు</td><td>maatilu</td><td>Ear studs</td></tr>
+<tr><td>167</td><td lang='te'>నాను</td><td>naanu</td><td lang='te'>కంఠభరణం</td><td>kantabharanam</td><td>Necklace</td></tr>
+<tr><td>168</td><td lang='te'>మట్టెలు</td><td>mattleu</td><td lang='te'>మెట్టెలు</td><td>mettalu</td><td>Toe rings</td></tr>
+<tr><td>169</td><td lang='te'>కాళ్ల గొలుసులు</td><td>kaalla golusulu</td><td lang='te'>కాళ్ల పట్టీలు</td><td>kaalla pattilu</td><td>Leg chains</td></tr>
+<tr><td>170</td><td lang='te'>మోల్దారం</td><td>moldaaram</td><td lang='te'>మోల తాడు</td><td>mola thadu</td><td>Waist thread</td></tr>
+<tr><td>171</td><td lang='te'>నల్లవూసల గొలుసు</td><td>nallavusala golusu</td><td lang='te'>మంగళసూత్రం</td><td>mangalasuthram</td><td>Black-bead chain</td></tr>
+<tr><td>172</td><td lang='te'>నకిలేసు</td><td>nakilesu</td><td lang='te'>నెక్లెస్</td><td>necklace</td><td>Necklace</td></tr>
+<tr><td>173</td><td lang='te'>కమ్మలు</td><td>kammalu</td><td lang='te'>బుట్టలు</td><td>buttalu</td><td>Ear ornaments</td></tr>
+</tbody>
+</table>
+</div>
 </main>
-<footer>
-
-<p>© 2026 Rayilla Sai Prakash</p>
-
-</footer>
-</body>
-</html>
+<script>
+document.getElementById('lexSearch').addEventListener('input', function(){
+ const q=this.value.toLowerCase().trim();
+ document.querySelectorAll('#lexTable tbody tr').forEach(function(row){
+   row.style.display=row.textContent.toLowerCase().includes(q)?'':'none';
+ });
+});
+</script>
+</body></html>
