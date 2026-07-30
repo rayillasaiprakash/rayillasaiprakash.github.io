@@ -58,9 +58,7 @@ Seeking funded PhD opportunities in Linguistics with interests in sociolinguisti
 
 - Portfolio: https://rayillasaiprakash.github.io
 - GitHub: https://github.com/rayillasaiprakash
-- LinkedIn: *(add URL)*
-- ORCID: *(add when available)*
-- Google Scholar: *(add when available)*
+
 
 ---
 
