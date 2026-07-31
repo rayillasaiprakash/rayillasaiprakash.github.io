@@ -26,7 +26,9 @@ I am an aspiring researcher with interdisciplinary training in **Linguistics** a
 - Language Documentation
 - Digital Humanities
 - GIS for Linguistic Research
+### Research Motivation
 
+My interest in Telangana Telugu began with a personal experience during my school years. Hearing my home variety of Telugu treated differently from other regional varieties made me reflect on questions of language, identity, and linguistic diversity. Years later, studying linguistics provided me with the theoretical framework to understand concepts such as language attitudes, dialect prestige, and language variation. Those experiences continue to shape my research today.
 ## 📂 Featured Research Projects
 
 | Project | Focus |
