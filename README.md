@@ -5,63 +5,61 @@
 ### MA Linguistics • MSc Geo-Informatics
 ### Aspiring PhD Researcher
 
-*Exploring Sociolinguistics, Telugu Dialectology, Language Documentation, Digital Humanities & GIS*
+**Research focus:** Telangana Telugu • Sociolinguistics • Dialectology • Language Documentation • Digital Humanities
 
-🌐 **Portfolio:** https://rayillasaiprakash.github.io
+🌐 **Academic Portfolio:** https://rayillasaiprakash.github.io
 
 </div>
 
 ---
 
-## 👨‍🔬 About Me
+## About Me
 
-I am an aspiring researcher with interdisciplinary training in **Linguistics** and **Geo-Informatics**. My work focuses on documenting language variation, understanding multilingual communities, and applying geospatial methods to humanities research.
+I am an early-career researcher from Hyderabad, Telangana, India, with an interdisciplinary background in **Linguistics** and **Geo-Informatics** from Osmania University. My work is centred on **Telangana Telugu**, especially regional variation, language attitudes, language documentation, lexical resources, oral traditions, and the relationship between language and identity.
 
-## 🔬 Research Interests
+My interest in Telangana Telugu began with a school experience that made me aware of how a regional variety can be judged differently from other varieties of Telugu. Studying linguistics later gave me the concepts to understand that experience through questions of **language attitudes, dialect prestige, variation, and identity**. That connection between lived experience and linguistic analysis continues to shape my research.
 
-- Sociolinguistics
-- Language Variation & Change
-- Language Maintenance
-- Telugu Dialectology
-- Language Documentation
-- Digital Humanities
-- GIS for Linguistic Research
-### Research Motivation
+I also use my Geo-Informatics background in projects involving spatial analysis, digital resources, and environmental research.
 
-My interest in Telangana Telugu began with a personal experience during my school years. Hearing my home variety of Telugu treated differently from other regional varieties made me reflect on questions of language, identity, and linguistic diversity. Years later, studying linguistics provided me with the theoretical framework to understand concepts such as language attitudes, dialect prestige, and language variation. Those experiences continue to shape my research today.
-## 📂 Featured Research Projects
+## Research Interests
 
-| Project | Focus |
-|---|---|
-| Academic Portfolio | Research website |
-| Karimnagar Dialect Study | Dialectology |
-| Telangana Voices | Digital humanities |
-| Siri Dhanya GIS | Geospatial analysis |
-| TT–ST Lexicon | Lexical resource |
+- Telangana Telugu and regional dialect variation
+- Sociolinguistics and language attitudes
+- Language documentation and maintenance
+- Lexicography and digital linguistic resources
+- Oral traditions and cultural documentation
+- Multilingualism and language contact
+- Digital humanities
+- GIS for linguistic research
 
-## 🛠 Technical Skills
+## Selected Research Projects
 
-**Research:** Field Linguistics • Corpus Building • Academic Writing • Spatial Analysis
+- **Karimnagar Dialect Study** — MA research on regional linguistic variation in Telangana Telugu
+- **Telangana Voices** — digital documentation of spoken language and culture
+- **TT–ST Lexicon** — 173-entry comparative lexical resource
+- **Telangana Proverbs Corpus** — 40 documented proverb entries with linguistic and cultural information
+- **Telangana Festival Corpus** — fieldwork-based narratives from Jagtial district
+- **Siri Dhanya & Water-Sustainable Agriculture** — interdisciplinary Geo-Informatics research
 
-**GIS:** QGIS • ArcGIS
-
-**Programming:** Python • HTML • CSS • JavaScript • Git
-
-## 🎓 Education
+## Education
 
 - **MA Linguistics** — Osmania University
 - **MSc Geo-Informatics** — Osmania University
+- **B.Tech. Electronics & Communication Engineering** — KITS (JNTUH affiliated)
 
-## 🎯 Current Goal
+## Research & Technical Skills
 
-Seeking funded PhD opportunities in Linguistics with interests in sociolinguistics, multilingualism, language documentation and digital humanities.
+**Linguistics:** Field Linguistics • Phonetic Transcription • Corpus Development • Linguistic Annotation • Sociolinguistic Analysis
 
-## 🌐 Academic Profiles
+**GIS:** QGIS • ArcGIS • Spatial Data Analysis
 
-- Portfolio: https://rayillasaiprakash.github.io
-- GitHub: https://github.com/rayillasaiprakash
+**Digital:** Python • HTML • CSS • JavaScript • Git
 
+## Current Goal
+
+I am preparing for funded PhD research in Linguistics, with particular interest in **Telangana Telugu, sociolinguistics, language documentation, multilingualism, and language maintenance**.
 
 ---
 
-> *"Using interdisciplinary methods to study language, society and place."*
+🌐 **Portfolio:** https://rayillasaiprakash.github.io  
+💻 **GitHub:** https://github.com/rayillasaiprakash
