@@ -7,88 +7,143 @@
 <title>Siri Dhanya Research | Rayilla Sai Prakash</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <style>
-.project-wrap{max-width:1080px;margin:0 auto;padding:46px 22px;line-height:1.72}
-.project-hero{padding:42px;border-radius:18px;background:linear-gradient(135deg,#173f2b,#39734e);color:#fff;margin-bottom:30px}
-.project-hero h1{font-size:clamp(2rem,4vw,3.15rem);line-height:1.15;margin:.35rem 0 1rem}
-.kicker{letter-spacing:.11em;text-transform:uppercase;font-weight:700;font-size:.8rem}
-.meta{opacity:.92}
-.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:18px;margin:24px 0}
-.project-card{background:#fff;border:1px solid #dfe8e1;border-radius:14px;padding:22px;box-shadow:0 5px 18px rgba(0,0,0,.05)}
-.project-card h3,.project-wrap h2{color:#245c3b}
-.notice{background:#f5f1df;border-left:5px solid #9b7b20;padding:18px;border-radius:8px;margin:20px 0}
-.download{display:inline-block;background:#fff;color:#173f2b;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:750;margin-top:14px}
-.evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:24px 0}
-.evidence-card{background:#fff;border:1px solid #dfe8e1;border-radius:14px;padding:16px;box-shadow:0 5px 18px rgba(0,0,0,.05)}
-.evidence-card img{width:100%;height:auto;display:block;border-radius:8px;border:1px solid #e1e6e2}
-.caption{font-size:.9rem;color:#5b665f;margin:.75rem 0 0}
-.method-list li{margin:.55rem 0}
-.back{display:inline-block;margin-bottom:18px}
-@media(max-width:760px){.project-hero{padding:28px 20px}.evidence-grid{grid-template-columns:1fr}}
+:root{
+  --green:#2f6f4e;
+  --green-dark:#173f2b;
+  --green-soft:#edf5ef;
+  --gold:#a9852a;
+  --paper:#ffffff;
+}
+body{background:#eef3f8}
+.siri-hero{
+  background:linear-gradient(135deg,#173f2b 0%,#2f6f4e 62%,#4d8060 100%);
+  color:#fff;border-radius:20px;padding:48px 46px;margin-bottom:30px;
+  box-shadow:0 12px 28px rgba(0,0,0,.12);position:relative;overflow:hidden
+}
+.siri-hero:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;
+right:-100px;top:-130px;background:rgba(255,255,255,.08)}
+.siri-kicker{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;opacity:.9}
+.siri-hero h1{font-size:clamp(2.1rem,4vw,3.4rem);line-height:1.1;margin:10px 0 14px}
+.siri-hero p{max-width:850px;margin:0 0 8px}
+.siri-meta{opacity:.9;font-size:.95rem}
+.siri-btn{
+ display:inline-block;margin-top:20px;background:#fff;color:#173f2b;text-decoration:none;
+ padding:12px 19px;border-radius:9px;font-weight:800;box-shadow:0 4px 12px rgba(0,0,0,.12)
+}
+.siri-btn:hover{background:#edf5ef;color:#173f2b}
+.siri-section{background:#fff;border-radius:20px;padding:32px 35px;margin-bottom:28px;
+ box-shadow:0 8px 20px rgba(0,0,0,.07)}
+.siri-section h2{color:var(--green-dark);margin-bottom:18px}
+.siri-section h3{color:var(--green);margin-bottom:8px}
+.siri-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.siri-card{background:var(--green-soft);border:1px solid #d7e6da;border-radius:14px;padding:20px}
+.siri-card strong{color:var(--green-dark)}
+.siri-notice{background:#faf6e8;border-left:5px solid var(--gold);padding:18px 20px;border-radius:10px;margin:20px 0}
+.siri-evidence{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.siri-figure{margin:0;border:1px solid #dce4df;border-radius:14px;background:#fff;padding:14px;
+ box-shadow:0 5px 15px rgba(0,0,0,.05)}
+.siri-figure img{width:100%;height:auto;display:block;border-radius:8px;border:1px solid #e2e6e3}
+.siri-figure figcaption{font-size:.9rem;color:#59635c;padding:12px 4px 2px}
+.siri-status{display:inline-block;background:#dcefe2;color:#245c3b;padding:5px 10px;border-radius:999px;
+font-size:.78rem;font-weight:800;margin-bottom:12px}
+.siri-back{display:inline-block;margin:4px 0 18px;color:#0b3d91;font-weight:700;text-decoration:none}
+.siri-back:hover{text-decoration:underline}
+.siri-footer{text-align:center;color:#777;padding:8px 0 35px;font-size:.9rem}
+@media(max-width:760px){
+ .siri-hero{padding:32px 24px}.siri-section{padding:25px 21px}.siri-evidence{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
-<main class="project-wrap">
-<a class="back" href="projects.html">← Back to Projects</a>
 
-<section class="project-hero">
-<div class="kicker">Ongoing Independent Research · Manuscript in Development · June 2026</div>
-<h1>Siri Dhanya Millet Cultivation and Water Sustainability in Telangana</h1>
-<p><strong>Field observations, community knowledge, published water-footprint evidence, and a proposed GIS direction</strong></p>
-<p class="meta">Rayilla Sai Prakash · M.Sc. Geo-Informatics · Jagtial–Karimnagar region, Telangana</p>
-<a class="download" href="assets/documents/Siri_Dhanya_Millets_Water_Productivity.pdf" target="_blank">Open Current Working Paper (PDF)</a>
+<nav class="navbar">
+  <div class="logo">Rayilla Sai Prakash</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="presentations.html">Presentations</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+<a class="siri-back" href="projects.html">← Back to Projects</a>
+
+<section class="siri-hero">
+  <div class="siri-kicker">Ongoing Independent Research · Manuscript in Development</div>
+  <h1>Siri Dhanya Millet Cultivation and Water Sustainability in Telangana</h1>
+  <p>Field observations, community knowledge, source-based nutrient information, published water-footprint evidence, and a proposed GIS direction.</p>
+  <p class="siri-meta"><strong>Rayilla Sai Prakash</strong> · M.Sc. Geo-Informatics · Jagtial–Karimnagar region, Telangana</p>
+  <a class="siri-btn" href="assets/documents/Siri_Dhanya_Millets_Water_Productivity.pdf" target="_blank">Open Current Working Paper (PDF)</a>
 </section>
 
-<h2>About the project</h2>
-<p>This is an ongoing independent study of Siri Dhanya (minor millet) cultivation in Telangana. The current manuscript brings together field-reported cultivation practices and water-use estimates from the Jagtial–Karimnagar region with published water-footprint literature and a source-based nutrient comparison. A later stage of the project proposes a GIS framework for examining where millet cultivation could be investigated further in relation to water stress, rainfall and crop patterns.</p>
+<section class="siri-section">
+  <span class="siri-status">WORK IN PROGRESS</span>
+  <h2>About the project</h2>
+  <p>This independent study examines Siri Dhanya (minor millet) cultivation in Telangana. The current stage brings together field-reported cultivation practices and water-use estimates from the Jagtial–Karimnagar region with published water-footprint literature and source-based nutrient information. A later phase proposes a GIS framework for examining rainfall, groundwater stress and crop patterns.</p>
+</section>
 
-<div class="project-grid">
-<div class="project-card"><h3>Study region</h3><p><strong>Jagtial–Karimnagar, Telangana</strong><br>Field-informed observations from an agricultural region of Telangana.</p></div>
-<div class="project-card"><h3>Millets documented</h3><p><strong>Foxtail · Barnyard · Kodo · Little · Browntop</strong><br>The manuscript discusses these minor millets within the Siri Dhanya classification used in the cited source material.</p></div>
-<div class="project-card"><h3>Research status</h3><p><strong>Work in progress</strong><br>Field estimates and source-based comparisons are being documented before further validation and spatial analysis.</p></div>
-</div>
+<section class="siri-section">
+  <h2>Research focus</h2>
+  <div class="siri-grid">
+    <div class="siri-card"><h3>Study region</h3><p><strong>Jagtial–Karimnagar, Telangana</strong><br>Field-informed observations from an agricultural region of Telangana.</p></div>
+    <div class="siri-card"><h3>Millets documented</h3><p><strong>Foxtail · Barnyard · Kodo · Little · Browntop</strong><br>Discussed within the Siri Dhanya classification used in the cited source material.</p></div>
+    <div class="siri-card"><h3>Current stage</h3><p><strong>Documentation and comparison</strong><br>Field estimates and source-based evidence are being assembled before further validation and spatial analysis.</p></div>
+  </div>
+</section>
 
-<div class="notice">
-<strong>Evidence and scope:</strong> The local water-use and yield figures are community-held, practice-based estimates, not instrumented field-trial measurements. The nutrient table reproduces values from the cited Siridhanya source and is not an independent laboratory analysis. These distinctions are retained deliberately while the research is in development.
-</div>
+<section class="siri-section">
+  <h2>Research questions and aims</h2>
+  <ul>
+    <li>How do local farmers describe the cultivation calendar, rainfall needs and water requirements of minor millets?</li>
+    <li>How do field-reported observations compare with published water-footprint evidence?</li>
+    <li>What nutrient-composition information is available in the cited Siridhanya source, and how can it be documented without presenting source claims as independent laboratory findings?</li>
+    <li>How could GIS be used in a later phase to examine relationships among rainfall, groundwater stress and crop distribution?</li>
+  </ul>
+</section>
 
-<h2>Research questions and aims</h2>
-<ul class="method-list">
-<li>How do local farmers describe the cultivation calendar, rainfall needs and water requirements of minor millets?</li>
-<li>How do these field-reported observations compare with published water-footprint evidence for crops such as paddy, wheat and other cereals?</li>
-<li>What nutrient-composition information is available in the cited Siridhanya source, and how can it be documented without presenting source claims as independent laboratory findings?</li>
-<li>How could GIS be used in a later phase to examine relationships among rainfall, groundwater stress and crop distribution in Telangana?</li>
-</ul>
+<section class="siri-section">
+  <h2>Current evidence</h2>
+  <div class="siri-evidence">
+    <figure class="siri-figure">
+      <img src="assets/images/siridhanya-nutrient-composition.png" alt="Nutrient composition table reproduced in the Siri Dhanya working paper">
+      <figcaption><strong>Nutrient composition.</strong> Source-reported values reproduced from the cited Siridhanya extension material; shown as source data rather than independent laboratory results.</figcaption>
+    </figure>
+    <figure class="siri-figure">
+      <img src="assets/images/siridhanya-water-comparison.png" alt="Water requirement and water footprint comparison table from the Siri Dhanya working paper">
+      <figcaption><strong>Water-use comparison.</strong> The upper section contains field-reported local estimates; the lower section contains literature-sourced water-footprint figures. They are not treated as directly interchangeable.</figcaption>
+    </figure>
+  </div>
+</section>
 
-<h2>Current evidence</h2>
-<div class="evidence-grid">
-<figure class="evidence-card">
-<img src="assets/images/siridhanya-nutrient-composition.png" alt="Nutritional composition table for millets and other grains reproduced from the current Siri Dhanya working paper">
-<figcaption class="caption"><strong>Nutrient composition.</strong> Source-reported values reproduced in the working paper from the cited Siridhanya extension material; shown here as source data, not independent laboratory results.</figcaption>
-</figure>
-<figure class="evidence-card">
-<img src="assets/images/siridhanya-water-comparison.png" alt="Water requirement and water footprint comparison table from the current Siri Dhanya working paper">
-<figcaption class="caption"><strong>Water-use comparison.</strong> The upper table contains field-reported local estimates; the lower table contains literature-sourced water-footprint figures. The two datasets are not treated as directly interchangeable.</figcaption>
-</figure>
-</div>
+<section class="siri-section">
+  <h2>Field-reported agronomic observations</h2>
+  <div class="siri-grid">
+    <div class="siri-card"><h3>Arikalu (kodo millet)</h3><p>120-day duration; critical rainfall reported at germination and panicle formation; approximately 250 L/kg grain reported locally; 12–13 qtl/acre reported yield.</p></div>
+    <div class="siri-card"><h3>Korralu (foxtail millet)</h3><p>75–90-day duration; reported as tolerant of dry spells; 7–9 qtl/acre reported yield.</p></div>
+    <div class="siri-card"><h3>Andukorralu (browntop millet)</h3><p>60–70-day duration; minimal water reported; up to three crop cycles per year reported; 8–10 qtl/acre reported yield.</p></div>
+    <div class="siri-card"><h3>Samalu (little millet)</h3><p>Approximately 90-day duration; minimal water requirement reported; 6–7 qtl/acre reported yield.</p></div>
+  </div>
+</section>
 
-<h2>Field-reported agronomic observations</h2>
-<div class="project-grid">
-<div class="project-card"><h3>Arikalu (kodo millet)</h3><p>120-day duration; critical rainfall reported at germination and panicle formation; approximately 250 L/kg grain reported locally; 12–13 qtl/acre reported yield.</p></div>
-<div class="project-card"><h3>Korralu (foxtail millet)</h3><p>75–90-day duration; reported as tolerant of dry spells; 7–9 qtl/acre reported yield.</p></div>
-<div class="project-card"><h3>Andukorralu (browntop millet)</h3><p>60–70-day duration; minimal water reported; up to three crop cycles per year reported; 8–10 qtl/acre reported yield.</p></div>
-<div class="project-card"><h3>Samalu (little millet)</h3><p>Approximately 90-day duration; minimal water requirement reported; 6–7 qtl/acre reported yield.</p></div>
-</div>
+<section class="siri-section">
+  <div class="siri-notice">
+    <strong>Current limitations:</strong> Local water-use and yield figures are community-held, practice-based estimates, not instrumented field-trial measurements. The nutrient table is reproduced from the cited Siridhanya source. Published literature also does not provide species-level water-footprint figures for the specific minor millets in the local classification.
+  </div>
+  <h2>Proposed next phase</h2>
+  <p>The GIS component is currently a proposed direction rather than a completed spatial analysis. The planned work would investigate the feasibility of combining groundwater-stress classifications, district-level crop-area data and rainfall information to construct a transparent suitability framework for further millet research in Telangana.</p>
+</section>
 
-<div class="notice">
-<strong>Important limitation:</strong> The manuscript notes that published water-footprint literature does not separately provide species-level figures for the specific minor millets in the local Siri Dhanya classification. The approximately 250 L/kg kodo figure therefore remains a field-reported estimate requiring independent agronomic validation.
-</div>
+<section class="siri-section">
+  <h2>Working paper</h2>
+  <p>The current document is a <strong>manuscript in development</strong>, not a finished peer-reviewed publication. It contains the current introduction, source-based nutrient table, field-reported water comparison, literature comparison and references.</p>
+  <a class="btn" href="assets/documents/Siri_Dhanya_Millets_Water_Productivity.pdf" target="_blank">View / Open Working Paper PDF</a>
+</section>
 
-<h2>Proposed next phase</h2>
-<p>The GIS component is currently a proposed direction rather than a completed spatial analysis. The planned work would investigate the feasibility of combining groundwater-stress classifications, district-level crop-area data and rainfall information to construct a transparent suitability framework for further millet research in Telangana.</p>
-
-<h2>Working paper</h2>
-<p>The current four-page document contains the introduction, source-based nutrient table, field-reported water comparison, literature comparison and references. It is intentionally presented as a <strong>manuscript in development</strong>, not as a finished peer-reviewed publication.</p>
-<p><a class="download" href="assets/documents/Siri_Dhanya_Millets_Water_Productivity.pdf" target="_blank">View / Open the Working Paper PDF</a></p>
+<div class="siri-footer">Rayilla Sai Prakash · Telangana-focused independent research</div>
 </main>
 </body>
 </html>
