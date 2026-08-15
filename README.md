@@ -27,7 +27,6 @@ This project examines minor-millet cultivation in the Jagtial–Karimnagar regio
 The current working paper deliberately distinguishes local practice-based estimates from instrumented agronomic measurements and published literature. The nutrient table is reproduced from the cited Siridhanya source rather than presented as independent laboratory analysis.
 
 - [View the research project](siridhanya.html)
-- [Open the current working paper PDF](assets/documents/Siri_Dhanya_Millets_Water_Productivity.pdf)
 
 ## Research interests
 
