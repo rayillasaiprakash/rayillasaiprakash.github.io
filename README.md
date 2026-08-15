@@ -1,45 +1,43 @@
-<div align="center">
-
 # Rayilla Sai Prakash
 
-### MA Linguistics • MSc Geo-Informatics
-### Aspiring PhD Researcher
+**MA Linguistics · MSc Geo-Informatics · Aspiring PhD Researcher**
 
-**Research focus:** Telangana Telugu • Sociolinguistics • Dialectology • Language Documentation • Digital Humanities
+I am an early-career researcher from Hyderabad, Telangana, India. My main academic interest is **Telangana Telugu**, especially regional variation, sociolinguistics, language documentation, language attitudes, oral traditions, and digital resources for linguistic research.
 
-🌐 **Academic Portfolio:** https://rayillasaiprakash.github.io
+My interest in Telangana Telugu began with experiences that made me aware of how regional speech can be evaluated differently in social and educational settings. Studying linguistics later gave me a way to examine those experiences through questions of language attitudes, dialect prestige, variation, and identity.
 
-</div>
+## Research
 
----
+### Telangana Telugu
 
-## About Me
+- **Telangana Voices** — documentation of spoken Telangana Telugu and cultural knowledge
+- **TT–ST Lexicon** — 173-entry Telangana Telugu–Standard Telugu lexical resource
+- **Telangana Proverbs** — 40 documented entries with explanations, translations, and linguistic notes
+- **Telangana Festival Corpus** — fieldwork-based festival narratives from Jagtial district
+- **Karimnagar Dialect Study** — MA research on regional linguistic variation
 
-I am an early-career researcher from Hyderabad, Telangana, India, with an interdisciplinary background in **Linguistics** and **Geo-Informatics** from Osmania University. My work is centred on **Telangana Telugu**, especially regional variation, language attitudes, language documentation, lexical resources, oral traditions, and the relationship between language and identity.
+### Independent interdisciplinary research
 
-My interest in Telangana Telugu began with a school experience that made me aware of how a regional variety can be judged differently from other varieties of Telugu. Studying linguistics later gave me the concepts to understand that experience through questions of **language attitudes, dialect prestige, variation, and identity**. That connection between lived experience and linguistic analysis continues to shape my research.
+**Siri Dhanya Millet Cultivation and Water Sustainability in Telangana**
 
-I also use my Geo-Informatics background in projects involving spatial analysis, digital resources, and environmental research.
+*Ongoing independent research · manuscript in development*
 
-## Research Interests
+This project examines minor-millet cultivation in the Jagtial–Karimnagar region through field-reported cultivation practices, community knowledge, source-based nutrient information, and published water-footprint literature. A future phase proposes a GIS framework for examining rainfall, groundwater stress and crop patterns in Telangana.
+
+The current working paper deliberately distinguishes local practice-based estimates from instrumented agronomic measurements and published literature. The nutrient table is reproduced from the cited Siridhanya source rather than presented as independent laboratory analysis.
+
+- [View the research project](siridhanya.html)
+- [Open the current working paper PDF](assets/documents/Siri_Dhanya_Millets_Water_Productivity.pdf)
+
+## Research interests
 
 - Telangana Telugu and regional dialect variation
 - Sociolinguistics and language attitudes
 - Language documentation and maintenance
+- Oral traditions and community-based research
 - Lexicography and digital linguistic resources
-- Oral traditions and cultural documentation
 - Multilingualism and language contact
-- Digital humanities
-- GIS for linguistic research
-
-## Selected Research Projects
-
-- **Karimnagar Dialect Study** — MA research on regional linguistic variation in Telangana Telugu
-- **Telangana Voices** — digital documentation of spoken language and culture
-- **TT–ST Lexicon** — 173-entry comparative lexical resource
-- **Telangana Proverbs Corpus** — 40 documented proverb entries with linguistic and cultural information
-- **Telangana Festival Corpus** — fieldwork-based narratives from Jagtial district
-- **Siri Dhanya & Water-Sustainable Agriculture** — interdisciplinary Geo-Informatics research
+- GIS and spatial approaches to linguistic and environmental research
 
 ## Education
 
@@ -47,19 +45,7 @@ I also use my Geo-Informatics background in projects involving spatial analysis,
 - **MSc Geo-Informatics** — Osmania University
 - **B.Tech. Electronics & Communication Engineering** — KITS (JNTUH affiliated)
 
-## Research & Technical Skills
+## Portfolio
 
-**Linguistics:** Field Linguistics • Phonetic Transcription • Corpus Development • Linguistic Annotation • Sociolinguistic Analysis
-
-**GIS:** QGIS • ArcGIS • Spatial Data Analysis
-
-**Digital:** Python • HTML • CSS • JavaScript • Git
-
-## Current Goal
-
-I am preparing for funded PhD research in Linguistics, with particular interest in **Telangana Telugu, sociolinguistics, language documentation, multilingualism, and language maintenance**.
-
----
-
-🌐 **Portfolio:** https://rayillasaiprakash.github.io  
+🌐 **Academic Portfolio:** https://rayillasaiprakash.github.io  
 💻 **GitHub:** https://github.com/rayillasaiprakash
